@@ -16,10 +16,10 @@
     "smooth-scroll": "^16.1.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && node script.js",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build && node script.js",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
   },
   "eslintConfig": {
     "extends": "react-app"
