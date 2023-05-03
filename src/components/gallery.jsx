@@ -6,15 +6,9 @@ export const Gallery = props => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: "img/portfolio/01-small.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/portfolio/02-small.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/portfolio/03-small.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/portfolio/04-small.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/portfolio/05-small.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/portfolio/06-small.jpg", title: "Lorem Ipsum6" },
-    { thumb: "img/portfolio/07-small.jpg", title: "Lorem Ipsum7" },
-    { thumb: "img/portfolio/08-small.jpg", title: "Lorem Ipsum8" },
-    { thumb: "img/portfolio/09-small.jpg", title: "Lorem Ipsum9" }
+    { thumb: "img/portfolio/11-small.jpg", title: "Lorem Ipsum1" },
+    { thumb: "img/portfolio/12-small.jpg", title: "Lorem Ipsum2" },
+    { thumb: "img/portfolio/13-small.jpg", title: "Lorem Ipsum3" },
   ];
 
   const images = data.map(obj => obj.thumb.replace("-small", "-large"));
@@ -34,7 +28,7 @@ export const Gallery = props => {
       <div className="container">
         <div className="section-title">
           <h2>Gallery</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+          <p>Serenity</p>
         </div>
         <div className="row">
           <div className="portfolio-items">
